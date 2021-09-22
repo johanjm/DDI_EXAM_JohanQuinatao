@@ -10,11 +10,6 @@ function App() {
   const [IdAD, SetIdAD] = useState([])
   const [BusAD, SetIbusAD] = useState([])
  
-  $('#num').focusout(function() {
-    var x = $(this).val();
-    // Recomiendo usar la consola en lugar de alerts
-    console.log(x);
-   });
   const hola =[
     {id: 1, advice: 'Remember that spiders are more afraid of you, than you are of them.'},
     {id: 2, advice: 'No Remember that spiders are more afraid of you, than you are of them.'},
